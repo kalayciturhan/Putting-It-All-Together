@@ -1,0 +1,114 @@
+/* Resetting some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #121212;
+    color: #fff;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 50px;
+    background: url('https://t3.ftcdn.net/jpg/09/46/83/64/360_F_946836417_xxXbbLLoSQocZDNfeASfxZLD0bNlg6b9.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Content Section */
+.content {
+    padding: 30px;
+    background: #1e1e1e;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    color: #f7d700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.references-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.references-list li {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.references-list li a {
+    color: #f7d700;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.references-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.content-text {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.content-text p {
+    font-size: 1.1rem;
+    color: #d3d3d3;
+}
+
+.content-text h3 {
+    font-size: 1.7rem;
+    color: #f7d700;
+}
+
+h2, h3 {
+    text-align: left;
+}
+
+/* Typography */
+h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
